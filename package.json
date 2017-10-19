@@ -1,26 +1,20 @@
 {
-  "name": "example2",
-  "version": "1.0.0",
-  "description": "MoS Portfolio Example 2",
-  "main": "main.js",
+  "name": "puppy-site",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "webpack": "*",
-    "webpack-dev-server": "*",
-    "react": "*",
-    "react-dom": "*",
-    "react-router-dom": "*",
-    "react-router": "*",
-    "jquery": "*",
-    "babel-core": "*",
-    "babel-preset-react": "*",
-    "babel-preset-es2015": "*",
-    "babel-env": "*",
-    "babel-loader": "*"
+    "gh-pages": "^1.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node main.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "author": "AaronDuBenion",
-  "license": "ISC"
+  "engines": {
+    "node": "4.1.1"
+  }
 }
