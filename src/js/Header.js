@@ -5,7 +5,12 @@ export class Header extends React.Component {
 	render() {
 		return (
 			<div>
-				<nav><Link to="/">Home</Link> | <Link to="/Photos">Photos</Link> | <Link to="/About">About</Link> | <Link to="/Contact">Contact</Link></nav>
+			<nav>
+				<Link to="/"><button>Home</button></Link>
+				<Link to="/Photos"><button>Photos</button></Link>
+				<Link to="/About"><button>About</button></Link>
+				<Link to="/Contact"><button>Contact</button></Link>
+			</nav>
 			</div>
 		);
 	}

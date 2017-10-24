@@ -4,6 +4,29 @@ COLORS
 **********/
 
 body {
+	background: url('/img/corgie.jpg') no-repeat fixed center;
+	background-size:cover;
+	background-clip:content-box;
+	background-color:#63C9EC;
+}
+
+button {
+	color:white;
+	background-color:grey;
+	display:inline-block;
+	margin:0 10px 0 0;
+	padding:15px 45px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+button:hover {
+	color:black;
+	background-color:white;
+}
+
+button:active {
+	color:white;
 	background-color:#63C9EC;
 }
 
