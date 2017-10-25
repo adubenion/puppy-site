@@ -2,6 +2,7 @@ import React from 'react';
 import {HashRouter as Router, Route} from 'react-router-dom';
 import {Header} from './Header';
 import {Home} from './Home.jsx';
+import {Photos} from './Photos.jsx';
 import {About} from './About.jsx';
 import {Contact} from './Contact.jsx';
 import {Footer} from './Footer';
@@ -14,6 +15,7 @@ export default class App extends React.Component {
             <div>
                 <Header />
                 <Route exact path="/" component={Home} />
+                <Route path="/Photos" component={Photos} />
                 <Route path="/About" component={About} />
                 <Route path="/Contact" component={Contact} />
                 <Footer />

@@ -4,7 +4,10 @@ export class About extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Find us on the Google!</h1>
+				<h1>About Us</h1>
+				<p>
+					We are a collective of individuals whom are estatic and enthusiastic about our happy, furry, barking friends.
+				</p>
 			</div>
 		);
 	}

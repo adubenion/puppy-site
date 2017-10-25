@@ -7,7 +7,7 @@ export class Header extends React.Component {
 			<div>
 			<nav>
 				<Link to="/"><button>Home</button></Link>
-				<Link to="/Photos"><button>Photos</button></Link>
+				<Link to="/Photos"><button className="separate">Photos</button></Link>
 				<Link to="/About"><button>About</button></Link>
 				<Link to="/Contact"><button>Contact</button></Link>
 			</nav>

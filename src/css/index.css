@@ -2,7 +2,9 @@
 /**********
 COLORS
 **********/
-
+html{
+	box-sizing:border-box;
+}
 body {
 	background: url('https://raw.githubusercontent.com/adubenion/puppy-site/gh-pages/img/corgie.jpg') no-repeat fixed center;
 	background-size:cover;
@@ -15,9 +17,27 @@ button {
 	background-color:grey;
 	display:inline-block;
 	margin:0 10px 0 0;
-	padding:15px 45px;
-	font-size:18px;
+	padding:5px 15px;
+	font-size:14px;
 	font-weight:bold;
+}
+
+.col {
+	background-color:#D8E8EE;
+	width:20%;
+	float:left;
+}
+
+.col-mid {
+	background-color:#D8E8EE;
+	width:60%;
+	float:left;
+}
+
+.row:after {
+	content:"";
+	clear:both;
+	display:table;
 }
 
 button:hover {
@@ -28,6 +48,10 @@ button:hover {
 button:active {
 	color:white;
 	background-color:#63C9EC;
+}
+
+button:focus {
+	outline:0;
 }
 
 div nav {
@@ -77,5 +101,12 @@ SIZING
 
 #wrapper {
 	max-width:800px;
+	min-width:200px;
 	margin:0 auto;
+}
+
+@media (max-width:600px) {
+	.separate:after {
+		clear:both;
+	}
 }
