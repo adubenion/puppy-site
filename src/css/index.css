@@ -4,7 +4,7 @@ COLORS
 **********/
 
 body {
-	background: url('/img/corgie.jpg') no-repeat fixed center;
+	background: url('https://raw.githubusercontent.com/adubenion/puppy-site/gh-pages/img/corgie.jpg') no-repeat fixed center;
 	background-size:cover;
 	background-clip:content-box;
 	background-color:#63C9EC;
